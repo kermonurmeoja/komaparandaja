@@ -1,0 +1,2 @@
+# komaparandaja
+Lihtne komaparandaja.
