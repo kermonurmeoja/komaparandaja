@@ -15,7 +15,7 @@ def paranda(laus):
 while i < len(vigane):
     lause1 = vigane[i].strip()
     parandatud = paranda(lause1)
-    f = open("parandatud.txt", "a") ## Lisasin a, kuna seda on mugavam while'iga kasutada.
+    f = open("parandatud.txt", "a")
     f.write(parandatud + "\n")
     f.close()
     i = i + 1
